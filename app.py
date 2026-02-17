@@ -1,13 +1,4 @@
-import streamlit as st
-google-generativeai
-Pillow
-pandas
-plotly
-import streamlit as st
-import google.generativeai as genai
-from PIL import Image
-import pandas as pd
-import plotly.express as px
+
 
 # --- 1. SETUP & AUTH ---
 # You will set this API Key in the Streamlit Dashboard (Secrets)
