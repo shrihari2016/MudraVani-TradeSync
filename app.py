@@ -1,4 +1,4 @@
-streamlit
+import streamlit as st
 google-generativeai
 Pillow
 pandas
@@ -12,9 +12,9 @@ import plotly.express as px
 # --- 1. SETUP & AUTH ---
 # You will set this API Key in the Streamlit Dashboard (Secrets)
 if "GEMINI_API_KEY" in st.secrets:
-    genai.configure(api_key=st.secrets["GEMINI_API_KEY"])
+    genai.configure(api_key=st.secrets["AIzaSyBJyCwXsJwLk83JmgscyKBMCJRFBymSeiM"])
 else:
-    st.error("API Key missing! Please set GEMINI_API_KEY in Secrets.")
+    st.error("API Key missing! Please set AIzaSyBJyCwXsJwLk83JmgscyKBMCJRFBymSeiM in Secrets.")
 
 # --- 2. THE UI ---
 st.set_page_config(page_title="MudraVani - TradeSync Pro", layout="wide", initial_sidebar_state="expanded")
